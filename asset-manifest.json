@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Convert-Plus-Beta-/static/css/main.ed5bc26e.chunk.css",
+    "main.js": "/Convert-Plus-Beta-/static/js/main.293a9625.chunk.js",
+    "main.js.map": "/Convert-Plus-Beta-/static/js/main.293a9625.chunk.js.map",
+    "runtime-main.js": "/Convert-Plus-Beta-/static/js/runtime-main.239c6bd8.js",
+    "runtime-main.js.map": "/Convert-Plus-Beta-/static/js/runtime-main.239c6bd8.js.map",
+    "static/js/2.b79c87a5.chunk.js": "/Convert-Plus-Beta-/static/js/2.b79c87a5.chunk.js",
+    "static/js/2.b79c87a5.chunk.js.map": "/Convert-Plus-Beta-/static/js/2.b79c87a5.chunk.js.map",
+    "index.html": "/Convert-Plus-Beta-/index.html",
+    "precache-manifest.8cbea3dc848fe3b9e62ac3a30f6fd3df.js": "/Convert-Plus-Beta-/precache-manifest.8cbea3dc848fe3b9e62ac3a30f6fd3df.js",
+    "service-worker.js": "/Convert-Plus-Beta-/service-worker.js",
+    "static/css/main.ed5bc26e.chunk.css.map": "/Convert-Plus-Beta-/static/css/main.ed5bc26e.chunk.css.map",
+    "static/js/2.b79c87a5.chunk.js.LICENSE": "/Convert-Plus-Beta-/static/js/2.b79c87a5.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.239c6bd8.js",
+    "static/js/2.b79c87a5.chunk.js",
+    "static/css/main.ed5bc26e.chunk.css",
+    "static/js/main.293a9625.chunk.js"
+  ]
+}
