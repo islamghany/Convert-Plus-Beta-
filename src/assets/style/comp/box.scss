@@ -1,0 +1,150 @@
+.box {
+  &__container {
+    width: 100%;
+    @include flex();
+    flex-wrap: wrap;
+  }
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    h1 {
+      font-weight: 300;
+      font-family: $mont;
+      text-transform: capitalize;
+      font-size: 2.2rem;
+      margin: 4rem 0 1rem 0;
+      background: $primary;
+      text-align: center;
+      letter-spacing: 0.6px;
+    }
+  }
+  &__body {
+    background: $black2;
+    border-radius: 6px;
+    min-width: 20rem;
+    margin: 8px;
+    @include respond(tab-port) {
+      flex: 0 1 calc(50% - 16px);
+    }
+    @include respond(phone) {
+      flex: 0 1 calc(100% - 16px);
+    }
+  }
+  &__header {
+    h3 {
+      display: inline-block;
+      font-weight: 300;
+      font-size: 1.8rem;
+      text-transform: capitalize;
+      padding: 0 2rem 1rem 0;
+      border-radius: 0 1px 59px 0;
+      background: $primary;
+      font-family: $lato;
+    }
+  }
+  &__form {
+    padding: 2rem 1rem;
+    form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      input {
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 0.3rem 0.4rem;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #defcf9;
+        color: #fff;
+        font-family: $nato;
+        text-transform: uppercase;
+        &:focus {
+          border-bottom: 1px solid $primary;
+        }
+        &::selection {
+          background: $warning;
+        }
+      }
+    }
+  }
+  &__select {
+    display: flex;
+  }
+  &__inputs {
+    form {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    margin: 1rem 0 0 1rem;
+
+    .ops {
+      margin: 0 0.5rem;
+      width: 1.3rem;
+      font-size: 2.3rem;
+      text-align: center;
+    }
+    input {
+      font-size: 1.4rem;
+      padding: 0.3rem 0.4rem;
+      //border: none;
+      width: 15rem;
+      background: transparent;
+      border: 1px solid #defcf9;
+      color: #fff;
+      font-family: $nato;
+      text-transform: uppercase;
+      border-radius: 4px;
+      &:focus {
+        border: 1px solid $primary;
+      }
+      &::selection {
+        background: $warning;
+      }
+    }
+  }
+  &__outputs {
+    margin-left: 1rem;
+    &--ans {
+      font-size: 2rem;
+    }
+    &--flags {
+      font-size: 1.4rem;
+      font-family: $lato;
+      span {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  &__mixed {
+    background: $black2;
+    padding: 2rem 4rem;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 10rem;
+
+    @include respond(phone) {
+      padding: 1rem;
+      width: 100%;
+    }
+    .css-2b097c-container {
+      position: relative;
+      box-sizing: border-box;
+      width: 15rem;
+      margin: 1rem;
+      @include respond(phone) {
+        margin: 0.3rem;
+      }
+      color: $black !important;
+      .css-1pahdxg-control:hover {
+        border-color: $primary;
+      }
+    }
+    .css-1pahdxg-control {
+      border-color: $primary;
+      box-shadow: 0 0 0 1px $primary;
+    }
+  }
+}

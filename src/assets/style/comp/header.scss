@@ -1,0 +1,66 @@
+.header{
+	flex:0 1 150px;
+	//background: $primary;
+      display: flex;
+background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+ box-sizing: border-box;
+ 		&__heading{
+		
+		flex:0 1 45%;
+		display: inline-block;
+	     @include flex();
+	   h1{
+	   	font-size:2.5rem;
+	   	font-family: $alfa;
+		letter-spacing: 4px;
+		font-weight: 300;
+		color: #fff;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: flex-start;
+         span{
+
+         	display: inline !important;
+         	background:$success;
+         }
+	   }
+
+	}
+	&__info2{
+			flex:0 1 30%;
+      @include flex();
+      margin-left: 2rem;
+      flex-direction: column;
+      align-items: flex-start;
+       .item{
+      	font-size:1.4rem;
+      	display: flex;
+      	align-items: center;
+      	color:#fff;
+      	font-family: 'nano';
+
+      	span{
+      		font-size: 2rem;
+      		color:$success;
+      		margin-right:.5rem; 
+      	}
+      }
+  }
+	&__info1{
+		flex:0 1 25%;
+      @include flex();
+      .item{
+      	font-size:1.4rem;
+      	display: flex;
+      	align-items: center;
+      	color:#eee;
+      	font-family: 'nano';
+      	span{
+      		font-size: 2rem;
+      		color:$success;
+      		margin-right:.5rem; 
+      	}
+      }
+	}
+}
